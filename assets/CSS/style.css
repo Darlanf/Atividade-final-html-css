@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.container {
+    display: flex;
+    height: 800px;
+}
+
+.menu {
+    display: flex;
+    background-color: #ff0000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegar{
+    text-align: center;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    border: 10px solid black; border-radius: 50%;
+    margin: auto;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.itens-lista {
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.itens-lista a:hover {
+    color: white;
+}
+
+#conteudo1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#conteudo1 a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nome {
+    font-size: 55px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+.meio {
+    color: #ff0000;
+}
+
+.endereço {
+    font-size: 30px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+}
+
+.sobre {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.rede {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.buttons {
+    height: 50px;
+    width: 50px;
+}
+
+    /* inicio conhecimentos */
+
+#conteudo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conhecimentos {
+    font-size: 55px;
+    width: 800px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.ordenada {
+    text-transform: uppercase;
+}
+
+/* inicio objetivos */
+
+#conteudo3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.objetivos {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.pessoais, .profissionais {
+    margin-bottom: 0;
+    font-size: 35px;
+    color: #ff0000;
+}
+    
